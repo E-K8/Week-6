@@ -18,7 +18,6 @@
 
 .sidebar {
     background-color: #DDECCB;
-    /*  */
     grid-area: sidebar;
     text-align: center;
 }
