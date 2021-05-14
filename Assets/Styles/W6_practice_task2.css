@@ -5,20 +5,20 @@
     height: 85vh;
     width: 85vw;
     grid-template-areas:
-        "header header header header header header header header header header header header"
-        "content content content content content content content content sidebar sidebar sidebar sidebar  "
-        "footer footer footer footer footer footer footer footer footer footer footer footer";
+        "hd hd hd hd hd hd hd hd hd hd hd hd"
+        "ct ct ct ct ct ct ct ct sb sb sb sb"
+        "ft ft ft ft ft ft ft ft ft ft ft ft";
 }
 
 .header {
     background-color: #E0E0E0;
-    grid-area: header;
+    grid-area: hd;
     text-align: center;
 }
 
 .sidebar {
     background-color: #DDECCB;
-    grid-area: sidebar;
+    grid-area: sb;
     text-align: center;
 }
 
@@ -27,7 +27,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 3fr;
-    grid-area: content;
+    grid-area: ct;
     text-align: center;
     align-items: start;
     justify-items: center;
@@ -73,7 +73,7 @@
 
 footer {
     background-color: #E0E0E0;
-    grid-area: footer;
+    grid-area: ft;
     display: grid;
     grid-template-columns: repeat(4, 3fr);
     justify-items: center;
