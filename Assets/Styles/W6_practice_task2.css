@@ -28,18 +28,21 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 3fr;
     grid-area: ct;
-    text-align: center;
     align-items: start;
     justify-items: center;
 
 }
 
 .upper_content {
+    border: 2px dotted blueviolet;
+    display: grid;
     grid-area: 1/1/2/3;
     width: 100%;
+    text-align: center;
 }
 
 .lower_content {
+    border: 2px dotted blueviolet;
     display: grid;
     grid-area: 2/1/3/3;
     grid-template-columns: repeat (2, 1fr);
@@ -49,14 +52,16 @@
     width: 100%;
     justify-items: stretch;
     align-items: center;
+    text-align: center;
 }
 
 .tab_1,
 .tab_2,
 .tab_3 {
+    border: 2px dotted blueviolet;
     display: grid;
     background-color: #FEEAB9;
-    height: 50%;
+    height: 70%;
     width: 95%;
     margin: auto;
     align-items: center;
