@@ -34,7 +34,7 @@
 }
 
 .upper_content {
-    border: 2px dotted blueviolet;
+    /* border: 2px dotted blueviolet; */
     display: grid;
     grid-area: 1/1/2/3;
     width: 100%;
@@ -42,7 +42,7 @@
 }
 
 .lower_content {
-    border: 2px dotted blueviolet;
+    /* border: 2px dotted blueviolet; */
     display: grid;
     grid-area: 2/1/3/3;
     grid-template-columns: repeat (2, 1fr);
@@ -58,7 +58,7 @@
 .tab_1,
 .tab_2,
 .tab_3 {
-    border: 2px dotted blueviolet;
+    /* border: 2px dotted blueviolet; */
     display: grid;
     background-color: #FEEAB9;
     height: 70%;
@@ -70,10 +70,12 @@
 .tab_1,
 .tab_2 {
     width: 90%;
+    margin-bottom: 1%;
 }
 
 .tab_3 {
     grid-column: span 2;
+    margin-top: 1%;
 }
 
 footer {
